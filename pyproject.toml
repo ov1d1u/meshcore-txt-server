@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meshcore-teletext"
+version = "0.1.0"
+description = "Markdown Teletext service over MeshCore direct messages"
+requires-python = ">=3.10"
+dependencies = ["meshcore==2.3.14"]
+
+[project.scripts]
+meshcore-teletext = "teletext.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

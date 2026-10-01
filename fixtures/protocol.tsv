@@ -1,0 +1,6 @@
+# frame<TAB>type<TAB>id<TAB>value
+T1DABCD.0.2:Hello	D	ABCD	0/2:Hello
+T1DABCD.1:é	D	ABCD	1:é
+T1ZABCD.0.1:eJzzSM3JyVfwIEwqAgA7Tw6O	D	ABCD	0/1:Hello Hello Hello Hello Hello Hello Hello!
+T1EABCD.2.FFFFFFFF	E	ABCD	2:FFFFFFFF
+T1XABCD.NF	X	ABCD	NF
